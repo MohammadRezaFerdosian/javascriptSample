@@ -1,0 +1,23 @@
+<html>
+<body>
+<header>
+    <script>
+        let myFunction=(function () {
+            let carId=122;
+           let getId = function () {
+               return carId;
+           };
+            return{
+                getId: getId
+            };
+
+            })();
+        console.log(myFunction.getId());
+
+    </script>
+</header>
+
+
+
+</body>
+</html>
